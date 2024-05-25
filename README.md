@@ -9,3 +9,7 @@
 ![Screenshot 2024-05-25 091332](https://github.com/yadnitagedam/FRONTEND-WEB-DEV-OPMENT-PROJECT-S/assets/149067592/ddef365f-6ff7-442f-9aef-c76538b6e7ac)
 
 ![Screenshot 2024-05-25 091354](https://github.com/yadnitagedam/FRONTEND-WEB-DEV-OPMENT-PROJECT-S/assets/149067592/2fa362b3-1416-4b1f-835e-7bdd62e69ca9)
+
+
+#  MOBILE VIEW
+![mobile view](https://github.com/yadnitagedam/FRONTEND-WEB-DEV-OPMENT-PROJECT-S/assets/149067592/df0782e7-f052-467d-afff-b22ef923db8d)
