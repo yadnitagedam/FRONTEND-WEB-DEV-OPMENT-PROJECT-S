@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+
+
+    & .img{
+        padding: 3rem;
+        padding-left: 14rem;
+      
+        h1{
+           text-align: left;
+           /* font-family: "Caveat", cursive; */
+           font-family: "Anton", sans-serif;
+           color: #0097DA;
+           font-size: 3rem;
+        }
+
+        img{
+            width: 30rem;
+            height:30rem;
+        }
+        p{
+            width: 30rem;
+            text-align: left;
+            font-size: 1.1rem;
+            line-height: 1.4;
+            color: #A2C7EA;
+        }
+    }
+
+    /*? LogIn Details */
+
+   & .login{
+         /* padding: 10rem; */
+    
+    
+        & form{
+            height: 30rem;
+            width: 30rem;
+            display: grid;
+            justify-content: center;
+            place-items: center;
+            padding-top: 3rem;
+            padding-bottom: 4rem;
+            border: 0.3px solid rgba(70, 163, 220, 0.372);
+            border-radius: 1rem;
+                -webkit-border-radius: 1rem;
+                -moz-border-radius: 1rem;
+                -ms-border-radius: 1rem;
+                -o-border-radius: 1rem;
+
+
+    
+            &:hover{
+            box-shadow: rgb(140, 205, 232) 0px 30px 60px -12px inset, rgba(164, 214, 232, 0.9) 0px 18px 36px -18px inset;
+            border-radius: .8rem;
+            border-bottom: 2px solid rgb(146, 207, 219);
+            transition: 1s ease all;
+            -webkit-transition: 1s ease all;
+            -moz-transition: 1s ease all;
+            -ms-transition: 1s ease all;
+            -o-transition: 1s ease all;
+            -webkit-border-radius: .8rem;
+            -moz-border-radius: .8rem;
+            -ms-border-radius: .8rem;
+            -o-border-radius: .8rem;
+}
+    
+            & input{
+                font-size: 1rem;
+                color: #0097DA;
+                height: 0;
+                width: 20rem;
+                padding: 1.4rem;
+                outline: none;
+                border: none;
+                background: rgba(159, 206, 218, 0.406);
+                border-radius: 1rem;
+                -webkit-border-radius: 1rem;
+                -moz-border-radius: 1rem;
+                -ms-border-radius: 1rem;
+                -o-border-radius: 1rem;
+    
+                &::placeholder{
+                    color: rgba(27, 30, 30, 0.45);
+                }
+            }
+            a{
+                text-decoration: none;
+                color: rgba(0, 0, 0, 0.553);
+            }
+    
+            & button{
+                font-size: 1.7rem;
+                height: 3rem;
+                width: 20rem;
+                border: none;
+                background: #0099dab5;
+                border-radius: 1rem;
+    
+                & a{
+                   text-decoration: none;
+                   color: aliceblue;
+                }
+            }
+        }
+    }
+}
+
+/* ? Media View */
+
+@media (max-width: 993px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    
+    
+        & .img{
+            padding: 0;
+            padding-left: 0;
+          
+            h1{
+                margin-top: 1rem;
+               text-align: center;
+               font-size: 3rem;
+            }
+    
+            img{
+                width: 20rem;
+                height:20rem;
+                margin: 1rem 0 0 0;
+            }
+            p{
+                width: 20rem;
+            }
+        }
+    
+        /*? LogIn Details */
+        
+        
+    
+       & .login{
+             padding:3rem 0 0 0;
+        
+        
+            & form{
+                height: 27rem;
+                width: 20rem;
+                padding-top: 2rem;
+                padding-bottom: 3rem;
+                margin-bottom: 8rem;
+    
+        
+                & input{
+                    font-size: 1rem;
+                    color: #0097DA;
+                    height: 0;
+                    width: 17rem;
+                    padding: 1.4rem;
+                }
+        
+                & button{
+                    font-size: 1.3rem;
+                    height: 2.3rem;
+                    width: 13rem;
+                    border: none;
+                    background: #0099dab5;
+                    border-radius: 1rem;
+        
+                    & a{
+                       text-decoration: none;
+                       color: aliceblue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ? ========================== */
+
