@@ -13,3 +13,6 @@
 
 #  MOBILE VIEW
 ![mobile view](https://github.com/yadnitagedam/FRONTEND-WEB-DEV-OPMENT-PROJECT-S/assets/149067592/df0782e7-f052-467d-afff-b22ef923db8d)
+
+# QUIZ WEB PAGE
+"C:\Users\HP\Downloads\QuizWeb.png"
