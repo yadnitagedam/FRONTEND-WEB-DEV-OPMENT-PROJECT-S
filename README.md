@@ -22,3 +22,5 @@
 
 # Generate Password
 ![passWord Generator By js](https://github.com/user-attachments/assets/fec7f560-1afb-4172-b83e-45cf1e86e257)
+# AGE Calculator
+![Age Calculator](https://github.com/user-attachments/assets/316bd05d-64e5-4698-9d20-804c7d71aacf)
